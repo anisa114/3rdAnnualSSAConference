@@ -1,8 +1,9 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
 1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '--dotenv--extended' ]
+1 verbose cli   'uninstall',
+1 verbose cli   'dotenv',
+1 verbose cli   '--save-dev' ]
 2 info using npm@3.10.10
 3 info using node@v6.11.2
 4 silly loadCurrentTree Starting
@@ -24,7 +25,7 @@
 11 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
 12 verbose cwd /home/ubuntu/workspace/SSA
 13 error Linux 4.9.120-c9
-14 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "install" "--dotenv--extended"
+14 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "uninstall" "dotenv" "--save-dev"
 15 error node v6.11.2
 16 error npm  v3.10.10
 17 error file /home/ubuntu/workspace/SSA/package.json
