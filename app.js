@@ -7,7 +7,8 @@ var mongoose=require("mongoose"),
     
     
 // mongoose.connect("mongodb://localhost/ssa_app", {useNewUrlParser:true});
-mongoose.connect("mongodb://ssa:ssa2019@ds117729.mlab.com:17729/ssa" , {useNewUrlParser:true});
+// mongoose.connect("mongodb://ssa:ssa2019@ds117729.mlab.com:17729/ssa" , {useNewUrlParser:true});
+mongoose.connect(process.env.DATABASEURL,{useNewUrlParser:true});
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
