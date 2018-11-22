@@ -14,9 +14,8 @@
     "dotenv": "^6.1.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "flag-icon-css": "^3.2.1",
     "mongo": "^0.1.0",
     "mongoose": "^5.3.10",
     "nodemailer": "^4.6.8"
   }
-  }
+}
