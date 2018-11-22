@@ -1,0 +1,54 @@
+.navbar-inverse .navbar-header .navbar-brand {
+    color: white;
+} 
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+
+.nav.navbar-nav.navbar-right li a {
+    position:relative;
+    color: white;
+    border: 2px solid transparent;
+  transition: all 300ms ease;
+    
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+   border:2px solid white;
+   
+}
+.nav.navbar-nav.navbar-right .active a {
+   border:2px solid white;
+   background:transparent;
+   margin-right: 7px;
+
+  
+}
+
+.navbar-brand img{
+	display: block;
+    overflow: hidden;
+    max-width: 75px;
+    max-height: 40px;
+   padding-bottom: 5px;
+
+}
+@media (max-width: 767px) {
+.navbar-fixed-top .navbar-header {
+	background: black;
+
+}
+.nav.navbar-nav.navbar-right li a{
+    background:black;
+}
+
+.nav.navbar-nav.navbar-right .active a{
+    background:black;
+    margin-right:0px;
+    
+    margin-top: -8px;
+}
+}

@@ -1,0 +1,61 @@
+<% include partials/header%>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/ticket.css">
+<div id="ticketssa">
+<img src="https://scontent-yyz1-1.cdninstagram.com/vp/08f3f96e64936aa66b0f8b56a5af7e82/5CAB103A/t51.2885-15/e35/12558641_574537759381008_5454307_n.jpg">   
+</div>
+<div class="container">
+    <h1>3RD ANNUAL SSA CONFERENCE 2019</h1>
+    <h2>Ryerson and UofT SSA welcomes you to join us this year in Canada</h2>
+    <div class="member">
+        <h3>Tickets are now Available for SSA Members and Officers Only</h3>
+        <h3>Note: The tickets for the Public will be available soon! </h3>
+    </div>
+    
+    <h2 id="register">Fill out the form below to regsiter</h2>
+    
+    <em>Indicates required field</em>
+</div>
+
+
+<div class="container">
+    <form  action="/paypal" method="POST">
+    
+        <div class="form-group required">
+          <label id="em" class="control-label">Name</label>
+            <div class="row">
+                <div class="form-row">
+                    <div class="col-xs-6">
+                        <input  type="text" class="form-control" id="first" name="ticket[first]" placeholder="First Name" required>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control" id="last"  name="ticket[last]" placeholder="Last Name" required>
+                    </div>
+                </div>
+            </div>
+     
+        <div class="form-group required">
+            <label class="control-label" for="school">School</label>
+            <input type="school" class="form-control" name="ticket[school]" id="school"placeholder="School" required>
+        </div>
+        <div class="form-group required">
+            <label class="control-label" for="major">Major</label>
+            <input type="text" class="form-control" id="major" placeholder="Major"  name="ticket[major]" required/>
+        </div>
+        
+        <div class="form-group required">
+            <label class="control-label" for="email">Email</label>
+            <input required type="email" class="form-control" id="email" name="ticket[email]" placeholder="Email" required >
+        </div>
+        <div class="form-group required">
+            <label class="control-label" for="number">Phone Number</label>
+            <input type="tel" class="form-control" id="number"  name="ticket[number]" required/>
+        </div>
+    
+    
+        <button type="submit" class="btn btn-primary">Register</button>
+      
+    </form>
+</div>
+
+<% include partials/footer%>

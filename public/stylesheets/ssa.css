@@ -1,0 +1,165 @@
+body{
+	background:url(https://images.unsplash.com/photo-1520790552719-b5cfd6b21953?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e7c6159d8c3c5a1975faf7719385ed25&auto=format&fit=crop&w=1500&q=80);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Lora;
+	
+	
+	/*background-color: #F5F5F5;*/
+	background-color: 	#ECF0F1;
+
+}
+	
+html{
+	height:50%;
+}
+#content{
+	text-align: left;
+	padding-top:13%;
+	/*text-shadow: 0px 2px 3px rgb(150,0,0);*/
+	padding-bottom: 0;
+				
+
+
+}
+
+#line{
+	color:black;
+	border-top:0.5px solid rgb(0,0,0);
+	border-bottom:0.5px solid rgb(0,0,0);
+   	margin-left: 0;
+   	margin-top: 1px;
+   	width: 45%
+
+
+
+}
+h1{
+	font-weight: 700;
+	font-size:3.5em;
+
+}
+
+span{
+	padding-left: 8%;
+
+}
+
+
+
+.title h3{
+	font-family: Dancing Script;
+	font-size:2em;
+	margin-bottom: 50px;
+}
+
+.cap h2{
+	display: inline;
+	font-family: Cinzel;
+}
+
+#float{
+	padding-left: 400px;
+}
+
+.container .row img{
+    width:65%;
+    margin-bottom: 20px;
+    margin-left:85px;
+}
+
+#img-float{
+	float:right;
+	margin-right: 100px;
+}
+.container .fa-plus{
+position: absolute;
+right:50%;
+top:900px;
+color:gray;
+
+}
+.container .title{
+	
+	padding-top: 240px;
+}
+
+
+.container .title h1{
+	font-family: Pathway Gothic One;
+	font-size:5em;
+	font-weight: 300;
+	
+}
+
+.container a i{
+	color:#495057;
+	padding-right: 3px;
+}
+
+.container a i:hover{
+	color:#2a92e5;
+}
+
+.caption {
+    text-align: center;
+    margin-right: 40px;
+    font-family: Cinzel;
+}
+
+
+/*To make the page Responsive*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+.container .title{
+	
+	padding-top: 260px;
+}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.container .title{
+	
+	padding-top: 210px;
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.container .title{
+	
+	padding-top: 180px;
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.container .title{
+	
+	padding-top: 150px;
+}
+
+.navbar-fixed-top .navbar-header {
+	background: black;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.container .title{
+	
+	padding-top: 98px;
+
+}
+.caption h2 {
+  		padding-left: 65px;
+}
+
+}
+

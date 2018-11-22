@@ -1,0 +1,85 @@
+body{
+    background-image: url(http://www.waryapost.com/waryasite/wp-content/uploads/Happy-children-2-Somali-Mode-pic.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:black;
+    background-color: #ECF0F1;
+    font-family: Lato;
+    
+}
+.container h1{
+    padding-top: 660px;
+    padding-bottom: 10px;
+    text-shadow: 0px 2px 3px black;
+    font-size: 5em;
+    text-align: left;
+    
+}
+.container h3{
+    font-family: Quicksand;
+}
+     
+
+
+html{
+    height: 60%;
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/*To make the page Responsive*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+.container h1{
+	
+	padding-top:660px;
+}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.container h1{
+	
+	padding-top: 600px;
+}
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.container h1{
+	
+	padding-top: 550px;
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.container h1{
+	
+	padding-top: 420px;
+}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.container h1{
+	
+	padding-top: 350px;
+}
+
+
+}
+

@@ -1,0 +1,54 @@
+body{
+    background-color: #ECF0F1;
+    
+}
+
+#ssaschool img{
+  
+    width:100%;
+
+}
+
+.container .row img{
+    width:65%;
+    margin-bottom: 20px;
+    margin-left:85px;
+}
+
+.container h1{
+    margin-top: 5%;
+   	font-family: Quicksand;
+	font-size:3em;
+	font-weight: 300;
+}
+.container p{
+    margin-bottom: 50px;
+}
+
+.caption {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.caption a i{
+    color:#495057;
+    padding-right: 3px;
+    margin-bottom: 20px;
+}
+
+.caption a i:hover{
+	color:#2a92e5;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+@media (max-width: 480px) {
+    
+    .caption{
+        padding-left: 50px;
+    }
+}

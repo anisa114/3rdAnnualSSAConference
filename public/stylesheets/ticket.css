@@ -1,0 +1,104 @@
+body{
+   /* background: #56ccf2; /* fallback for old browsers 
+  background: -webkit-linear-gradient(to right, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #56ccf2, #2f80ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:black;
+    background-color: 	#ECF0F1;
+    font-family: Lato;
+
+}
+
+#ticketssa img{
+    width:100%;
+    height: 100%;
+}
+.container h1{
+    padding-top: 50px;
+    text-shadow: 0px 2px 3px black;
+    font-size: 4em;
+    text-align: center;
+    
+}
+.container h2{
+    font-family: Quicksand;
+    margin-top: 50px;
+    text-align: center;
+    
+    
+}
+.container h3{
+    text-align: center;
+     font-family: Quicksand;
+    font-weight: 500;
+    
+}
+.member{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#register{
+    text-align: left;
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+
+#last{
+    margin-left: 5px;
+
+}
+
+.container form{
+    width:40%;
+}
+
+.form-group.required .control-label:after{
+    content:"*";
+    color:red;
+    
+   margin-left: 2px;
+
+}
+
+em:before{
+    content:"*";
+    color:red;
+    margin-right: 2px;
+    
+}
+
+ /*Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container form{
+    width:50%;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+.container form{
+    width:60%;
+}
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+.container form{
+    width:100%;
+}
+
+
+}
+
+

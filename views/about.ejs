@@ -1,0 +1,45 @@
+<% include partials/header%>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
+<div id="aboutssa">
+<img src="https://scontent-yyz1-1.cdninstagram.com/vp/d3e9030eb770b9045f5e4591ceb7ae44/5C8C2A79/t51.2885-15/e35/17266264_609152545947360_4129459043326492672_n.jpg">   
+</div>
+<div class=container>
+    <h1>What is the SSA Annual Conference?</h1>
+    <p>It is an intercollegiate conference whose purpose is to connect Somali youth organizations across North America in an effort to establish a voice for the diaspora. Sadly, there is a disconnect between the Somali youth and we hope to connect them and motivate them to be active members in their communities. Through collaborating with one another we will be able to further benefit our individual communities and eventually the greater Somali diaspora. The theme for this year's conference will be helping Somali college students become a helping hand for their community. Also translated in Somali as "Dadkaada wax u tar". The students that attend the SSA annual conference will not only learn about their history and culture, they will also have the opportunity to discuss with and learn from students from all over the continent on how to face the challenges they encounter as SSAs and better serve their communities. </p>
+</div>
+
+
+<div class="container">
+    <h3>If you have any questions at all, please feel free to contact us.</h3> 
+    
+   <em >Indicates required field</em>
+<form action="/about"  method="post" role="form"> 
+<!--The role="form" attribute is to assist with accessibility for users with screen-readers or similar devices.-->
+    
+    <div class="form-group required">
+          <label id="namelabel" class="control-label">Name</label>
+            <div class="row">
+                <div class="form-row">
+                    <div class="col-xs-6">
+                        <input  type="text" class="form-control" id="first" name="first" aria-labelledby="namelabel" placeholder="First Name" required>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" class="form-control" id="last"  name="last" aria-labelledby="namelabel" placeholder="Last Name" required>
+                    </div>
+                </div>
+            </div>
+            
+            
+    <div class="form-group required">
+            <label class="control-label" for="email">Email</label>
+            <input required type="email" class="form-control" id="email" name="email" placeholder="Email" required >
+    </div>
+    <div class="form-group required">
+        <label class="control-label"for="comment">Comment</label>
+      <textarea id="comment" name="comment" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<% include partials/footer%>
