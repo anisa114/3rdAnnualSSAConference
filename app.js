@@ -6,7 +6,6 @@ var mongoose=require("mongoose"),
     
     
     
-
 mongoose.connect("mongodb://localhost/ssa_app", {useNewUrlParser:true});
 app.set("view engine", "ejs");
 
