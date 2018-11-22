@@ -8,7 +8,7 @@ var mongoose=require("mongoose"),
     
 process.env.NODE_ENV === 'development';
 
-require('dotenv').config()
+
 mongoose.connect("mongodb://localhost/ssa_app", {useNewUrlParser:true});
 app.set("view engine", "ejs");
 
