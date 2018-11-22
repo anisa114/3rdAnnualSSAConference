@@ -6,7 +6,7 @@ var mongoose=require("mongoose"),
     
     
     
-process.env.NODE_ENV === 'development';
+
 
 
 mongoose.connect("mongodb://localhost/ssa_app", {useNewUrlParser:true});
