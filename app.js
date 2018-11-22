@@ -94,10 +94,10 @@ app.post('/about', function (req, res) {
   smtpTrans.sendMail(mailOpts, function (error, response) {
     if (error) {
         console.log(error);
-      console.log("Did not WORK");
+      console.log(error);
     }
     else {
-      console.log("Email Sent");
+      res.redirect("/about");
       
     }
   });
