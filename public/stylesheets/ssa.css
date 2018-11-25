@@ -139,7 +139,7 @@ color:gray;
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
 .container .title{
 	
 	padding-top: 150px;
@@ -151,7 +151,7 @@ color:gray;
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-device-width: 480px) {
 .container .title{
 	
 	padding-top: 98px;
