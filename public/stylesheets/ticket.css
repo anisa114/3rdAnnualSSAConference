@@ -42,6 +42,7 @@ body{
 
 label{
     margin-bottom: 20px;
+    margin-top:15px;
 }
 
 form{
@@ -71,6 +72,10 @@ em:before{
     color:red;
     margin-right: 2px;
     
+}
+
+a button{
+   margin-left: 10px;
 }
 
  /*Portrait tablets and small desktops */
