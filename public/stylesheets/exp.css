@@ -1,0 +1,84 @@
+body{
+	
+	background-color: 	#ECF0F1;
+	font-family: Quicksand;
+
+}
+
+
+
+.box{
+    margin-left: 20px;
+}
+h1{
+    font-style: inherit;
+    margin-top: 40px;
+  
+}
+h2{
+    font-style: inherit;
+}
+p {
+    line-height: 1.5;
+    font-size: 18px;
+    width:60%;
+}
+.halal {
+    color:green;
+}
+
+li{
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.box img{
+    width:30%;
+    float:right; 
+    margin-right: 150px;
+    border-radius: 70px;
+    margin-top: 30px;
+    
+}
+
+#mush{
+    position: absolute;
+    left:58%;
+    top:180%;
+    height:200px;
+}
+
+
+#brunch{
+    position: absolute;
+    left:58%;
+    top:228%;
+    height:200px;
+    
+}
+
+#dessert{
+     position: absolute;
+    left:58%;
+    top:275%;
+    height:200px;
+    
+}
+
+#edge{
+    position: absolute;
+    left:58%;
+    top:320%;
+    height:230px;
+    
+}
+#group{
+    position: absolute;
+    left:58%;
+    top:370%;
+    height:230px;
+    
+}
+ul{
+    margin-bottom: 80px;
+}

@@ -4,10 +4,10 @@ var mongoose=require("mongoose"),
     app         =express(),
     nodemailer = require('nodemailer');
     
-    
-    
 
-mongoose.connect(process.env.DATABASEURL,{useNewUrlParser:true});
+var url = process.env.DATABASEURL || 'mongodb://ssa:ssa2019@ds117729.mlab.com:17729/ssa'
+mongoose.connect(url,{useNewUrlParser:true});
+
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
@@ -36,6 +36,15 @@ app.get("/about", function(req, res) {
 app.get("/schools", function(req, res) {
     res.render("schools");
 });
+
+app.get("/experience", function(req, res) {
+    res.render("experience");
+});
+app.get("/schedule", function(req, res) {
+    res.render("schedule");
+});
+
+
 app.get("/ticket/new", function(req, res) {
     res.render("ticket");
 });
