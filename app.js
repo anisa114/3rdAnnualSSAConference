@@ -46,6 +46,10 @@ app.get("/schedule", function(req, res) {
 });
 
 
+app.get("/sponsors", function(req, res) {
+    res.render("sponsors");
+});
+
 app.get("/ticket/new", function(req, res) {
     res.render("ticket");
 });
