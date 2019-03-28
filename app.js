@@ -45,6 +45,9 @@ app.get("/schedule", function(req, res) {
     res.render("schedule");
 });
 
+app.get("/speakers", function(req, res) {
+    res.render("speakers");
+});
 
 app.get("/sponsors", function(req, res) {
     res.render("sponsors");
