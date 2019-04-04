@@ -4,8 +4,9 @@ var mongoose=require("mongoose"),
     app         =express(),
     nodemailer = require('nodemailer');
     
+require('dotenv').config();
 
-var url = process.env.DATABASEURL || 'mongodb://ssa:ssa2019@ds117729.mlab.com:17729/ssa'
+var url = process.env.DATABASEURL 
 mongoose.connect(url,{useNewUrlParser:true});
 
 app.set("view engine", "ejs");
