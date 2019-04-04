@@ -14,7 +14,7 @@ Students/Attendees/Public:
 - ejs
 - mongo
 - bootstrap
--heroku
+- heroku
 
 ## Getting Started
 
